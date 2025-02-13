@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+h1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Button Styling */
+button {
+    margin: 20px;
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Message Box */
+#message {
+    font-size: 20px;
+    margin-top: 15px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Input Field */
+input {
+    padding: 10px;
+    width: 50%;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* Output Text */
+#outputText {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #555;
+    font-style: italic;
+}
+
+/* Hover Box */
+#hoverBox {
+    width: 200px;
+    height: 100px;
+    margin: 30px auto;
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background 0.3s ease, transform 0.2s;
+}
+
+#hoverBox:hover {
+    transform: scale(1.1);
+}
+
+/* Hover Message */
+#hoverMessage {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #d9534f;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    input {
+        width: 80%;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    #hoverBox {
+        width: 150px;
+        height: 80px;
+        font-size: 16px;
+    }
+}
